@@ -9,6 +9,7 @@ const HomesectionCard = ({ product }) => {
             <h3 className='text-center font-semibold capitalize text-lg mt-2'>
                 {product.brand}
             </h3>
+            <p>{product.title}</p>
         </div>
     );
 };
