@@ -10,6 +10,7 @@ const HomesectionCard = ({ product }) => {
                 {product.brand}
             </h3>
             <p>{product.title}</p>
+            <p>{product.price}</p>
         </div>
     );
 };
