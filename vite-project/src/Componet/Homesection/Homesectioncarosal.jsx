@@ -1,9 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from 'react'
+import HomesectionCard from './HomesectionCard'
+import { mens_kurta } from '../../Data/Mansection/Mans_kurta'
 import { GrNext, GrPrevious } from 'react-icons/gr';
-import HomesectionCard from './HomesectionCard';
-import { mens_kurta } from '../Datajs/man/mancurta';
 
-const HomesectionCesosol = () => {
+const Homesectioncarosal = () => {
     const slideProductRef = useRef();
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -16,7 +16,6 @@ const HomesectionCesosol = () => {
         slideProductRef.current.scrollLeft -= 200;
         setActiveIndex(activeIndex - 1);
     };
-
     return (
         <>
             <div className=' relative'>
@@ -47,7 +46,7 @@ const HomesectionCesosol = () => {
                 </div>
             </div>
         </>
-    );
-};
+    )
+}
 
-export default HomesectionCesosol;
+export default Homesectioncarosal

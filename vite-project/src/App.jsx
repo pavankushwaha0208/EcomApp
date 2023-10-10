@@ -1,17 +1,15 @@
 import React from 'react'
-import Navigation from './Component/Navigation'
+import Navigation from './Componet/Homesection/Navigation'
 import Home from './Pages/Home'
 
 const App = () => {
   return (
-    <>
+    <div>
+        <Navigation/>
       <div className="">
-         <Navigation/>  
-        <div className="">
-          <Home/>
-        </div>
+        <Home/>
       </div>
-    </>
+    </div>
   )
 }
 

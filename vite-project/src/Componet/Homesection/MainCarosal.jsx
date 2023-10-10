@@ -1,20 +1,20 @@
-
 import React from 'react'
-import { Homecesoldata } from '../Datajs/Homecesoldata';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import { Homecesoldata } from '../../Data/Maincarousel/Maincarousel';
 
-const MainCrosel = () => {
+const MainCarosal = () => {
     const items = Homecesoldata.map((data) => <img className='cursor-pointer' src={data.image} alt='' role='presentation' />)
-    return (
-                <AliceCarousel
-                    // mouseTracking
+  return (
+    <div>
+       <AliceCarousel
                     items={items}
                     disableButtonsControls
                     autoPlay
                     autoPlayInterval={1000}
                     infinite />
-    )
+    </div>
+  )
 }
 
-export default MainCrosel
+export default MainCarosal

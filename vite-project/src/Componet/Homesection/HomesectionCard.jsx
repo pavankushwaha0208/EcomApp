@@ -16,4 +16,3 @@ const HomesectionCard = ({ product }) => {
 };
 
 export default HomesectionCard;
-

@@ -1,21 +1,15 @@
 import React from 'react'
-import MainCrosel from '../Component/MainCrosel'
-import HpmesectionCesosol from '../Component/HpmesectionCesosol'
+import MainCarosal from '../Componet/Homesection/MainCarosal'
+import Homesectioncarosal from '../Componet/Homesection/Homesectioncarosal'
 
 const Home = () => {
   return (
-   <>
-   <div className="">
-    <MainCrosel/>
-       <div className="py-10 space-y-10">
-   <HpmesectionCesosol/>
-   <HpmesectionCesosol/>
-   <HpmesectionCesosol/>
-   <HpmesectionCesosol/>
-   
-       </div>
-   </div>
-   </>
+    <div>
+      <MainCarosal/>
+      <div className="py-10 space-y-10">
+        <Homesectioncarosal/>
+      </div>
+    </div>
   )
 }
 
